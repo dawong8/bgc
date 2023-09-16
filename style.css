@@ -37,9 +37,11 @@ img {
 }
 
 .opponent-image {
-	width: 10em;
-    height: 10em;
-    margin: .1em;
+	min-width: 10em;
+    min-height: 10em;
+    max-width: 10em;
+    margin: 0.1em;
+    max-height: 10em;
 }
 
 .fight {
@@ -60,7 +62,7 @@ img {
 }
 
 .l-text {
-	color: darkred;
+	color: red;
 }
 
 .light-grey {

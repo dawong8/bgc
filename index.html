@@ -119,7 +119,7 @@ function onClick(element) {
         } 
         imageStr += `<img class='opponent-image' src='./images/${people[t]}.png' />`
       }
-      $images = $(imageStr);
+      $images = $(`<div>${imageStr}</div>`);
       fullText = element.alt + " vs. " + opponent; 
       result = "j"
     } else if (parsed[1] === "j" && parsed.length === 3) {
