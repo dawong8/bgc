@@ -1,0 +1,68 @@
+img {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#photo-grid {
+}
+
+.replacement {
+	border: 5px solid orange;
+}
+
+.original {
+	border: 5px solid black;
+}
+
+.img-container {
+	cursor: pointer;
+}
+.img-container:hover {
+	opacity: .6;
+	filter: blur(2px);
+}
+
+.name-plate {
+	color: pink;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin: 0;
+}
+.og {
+	color: lightblue;
+	margin: 0;
+}
+
+.opponent-image {
+	width: 10em;
+    height: 10em;
+    margin: .1em;
+}
+
+.fight {
+	display: flex;
+	text-transform: capitalize;
+    justify-content: space-between;
+    margin: 0 20%;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.w-text {
+	color: lightgreen;
+}
+
+.l-text {
+	color: darkred;
+}
+
+.light-grey {
+	color: #757575;
+}
