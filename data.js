@@ -6,6 +6,12 @@ let records = [
 		"fights": ["drea-l", "drea-t", "drea-l", "drea-l", "drea-l", "lynesha-w", "lynesha-w", "drea-l"]
 	},
 	{
+		"name": "angela", 
+		"replacement": false,
+		"season": 8, 
+		"fights": []
+	},
+	{
 		"name": "angelique", 
 		"replacement": true,
 		"season": 7, 
@@ -21,6 +27,18 @@ let records = [
 		"name": "ashlynn", 
 		"replacement": true,
 		"season": 5, 
+		"fights": []
+	},
+	{
+		"name": "ayella", 
+		"replacement": false,
+		"season": 8, 
+		"fights": []
+	},
+	{
+		"name": "banisha", 
+		"replacement": false,
+		"season": 8, 
 		"fights": []
 	},
 	{
@@ -204,6 +222,12 @@ let records = [
 		"fights": ["tyeesha-l", "tyeesha-w", "tyeesha-l", "lexis-w"]
 	},
 	{
+		"name": "rebecca", 
+		"replacement": false,
+		"season": 8, 
+		"fights": []
+	},
+	{
 		"name": "saaphari", 
 		"replacement": false,
 		"season": 3, 
@@ -237,6 +261,12 @@ let records = [
 		"name": "symone", 
 		"replacement": false,
 		"season": 1, 
+		"fights": []
+	},
+	{
+		"name": "taynice", 
+		"replacement": false,
+		"season": 8, 
 		"fights": []
 	},
 	{
