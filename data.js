@@ -9,7 +9,7 @@ let records = [
 		"name": "angela", 
 		"replacement": false,
 		"season": 8, 
-		"fights": []
+		"fights": ["rebecca-w", "rebecca-w", "taynice-l", "taynice-w", "taynice-t", "banisha-l", "taynice-l", "taynice-w", "rebecca-t"]
 	},
 	{
 		"name": "angelique", 
@@ -33,13 +33,13 @@ let records = [
 		"name": "ayella", 
 		"replacement": false,
 		"season": 8, 
-		"fights": []
+		"fights": ["sam-t"]
 	},
 	{
 		"name": "banisha", 
 		"replacement": false,
 		"season": 8, 
-		"fights": []
+		"fights": ["angela-w"]
 	},
 	{
 		"name": "beyonka", 
@@ -225,13 +225,19 @@ let records = [
 		"name": "rebecca", 
 		"replacement": false,
 		"season": 8, 
-		"fights": []
+		"fights": ["angela-l", "angela-l", "angela-t"]
 	},
 	{
 		"name": "saaphari", 
 		"replacement": false,
 		"season": 3, 
 		"fights": ["lindsey-t", "dayana-w", "dayana-l"]
+	},
+	{
+		"name": "sam", 
+		"replacement": true,
+		"season": 8, 
+		"fights": ["ayella-t"]
 	},
 	{
 		"name": "savannah", 
@@ -267,7 +273,7 @@ let records = [
 		"name": "taynice", 
 		"replacement": false,
 		"season": 8, 
-		"fights": []
+		"fights": ["angela-w", "angela-l", "angela-t", "angela-w", "angela-l"]
 	},
 	{
 		"name": "tia", 
