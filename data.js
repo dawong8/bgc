@@ -1,5 +1,11 @@
 let records = [
 	{
+		"name": "alexis",
+		"replacement": false, 
+		"season": 9, 
+		"fights": ["jayda-w", "haley-w", "jayda-w", "iris-w"]
+	},
+	{
 		"name": "aliyah",
 		"replacement": false, 
 		"season": 6, 
@@ -72,6 +78,12 @@ let records = [
 		"fights": ["aliyah-w", "aliyah-t", "nesse-w", "aliyah-w", "nesse-w", "aliyah-w", "aliyah-w", "bartender-w", "stephanie-w", "aliyah-w", "paige-w", "karina-w"]
 	},
 	{
+		"name": "erica",
+		"replacement": true, 
+		"season": 9, 
+		"fights": ["jayda-t", "iris-w"]
+	},
+	{
 		"name": "erin", 
 		"replacement": false,
 		"season": 2, 
@@ -84,16 +96,34 @@ let records = [
 		"fights": []
 	},
 	{
+		"name": "haley",
+		"replacement": false, 
+		"season": 9, 
+		"fights": ["alexis-l", "nikki-t", "jayda-l", "nikki-l"]
+	},
+	{
 		"name": "hayden", 
 		"replacement": false,
 		"season": 3, 
 		"fights": ["lindsey-w", "zoey-w"]
 	},
 	{
+		"name": "iris",
+		"replacement": false, 
+		"season": 9, 
+		"fights": ["erica-l", "alexis-l"]
+	},
+	{
 		"name": "janae", 
 		"replacement": false,
 		"season": 5, 
 		"fights": ["tyeesha-t", "lexis-t"]
+	},
+	{
+		"name": "jayda",
+		"replacement": false, 
+		"season": 9, 
+		"fights": ["alexis-l", "erica-t", "alexis-l", "haley-w"]
 	},
 	{
 		"name": "karina", 
@@ -196,6 +226,12 @@ let records = [
 		"replacement": false,
 		"season": 6, 
 		"fights": ["drea-l", "drea-l", "stephanie-l"]
+	},
+	{
+		"name": "nikki",
+		"replacement": false, 
+		"season": 9, 
+		"fights": ["haley-t", "haley-w"]
 	},
 	{
 		"name": "nora", 
