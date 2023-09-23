@@ -15,7 +15,7 @@ let records = [
 		"name": "angela", 
 		"replacement": false,
 		"season": 8, 
-		"fights": ["rebecca-w", "rebecca-w", "taynice-l", "taynice-w", "taynice-t", "banisha-l", "taynice-l", "taynice-w", "rebecca-t"]
+		"fights": ["rebecca-w", "rebecca-w", "taynice-l", "taynice-w", "taynice-t", "banisha-l", "taynice-l", "taynice-w", "rebecca-t", "kiki-w", "christina-w"]
 	},
 	{
 		"name": "angelique", 
@@ -39,7 +39,7 @@ let records = [
 		"name": "ayella", 
 		"replacement": false,
 		"season": 8, 
-		"fights": ["sam-t"]
+		"fights": ["sam-t", "kiki-w"]
 	},
 	{
 		"name": "banisha", 
@@ -63,7 +63,7 @@ let records = [
 		"name": "christina", 
 		"replacement": false,
 		"season": 7, 
-		"fights": ["ashley-j-trina", "angelique-l", "angelique-l", "angelique-j-trina,beyonka,liana", "shanelle-l", "shanelle-j-liana"]
+		"fights": ["ashley-j-trina", "angelique-l", "angelique-l", "angelique-j-trina,beyonka,liana", "shanelle-l", "shanelle-j-liana", "savannah-l", "angela-l", "tina-l"]
 	},
 	{
 		"name": "dayana", 
@@ -153,7 +153,7 @@ let records = [
 		"name": "kiki", 
 		"replacement": false,
 		"season": 4, 
-		"fights": ["melani-l", "melani-l", "melani-l", "tia-j-lupita,chloe"]
+		"fights": ["melani-l", "melani-l", "melani-l", "tia-j-lupita,chloe", "ayella-l", "angela-l", "tina-l"]
 	},
 	{
 		"name": "latricia", 
@@ -171,7 +171,7 @@ let records = [
 		"name": "lexis", 
 		"replacement": false,
 		"season": 5, 
-		"fights": ["rayleigh-l", "janae-t", "kendra-l"]
+		"fights": ["rayleigh-l", "janae-t", "kendra-l", "tina-l", "tina-l", "tina-l"]
 	},
 	{
 		"name": "liana", 
@@ -279,7 +279,7 @@ let records = [
 		"name": "savannah", 
 		"replacement": false,
 		"season": 1, 
-		"fights": ["nora-l", "nora-w", "mona-w"]
+		"fights": ["nora-l", "nora-w", "mona-w", "christina-w"]
 	},
 	{
 		"name": "sel", 
@@ -321,7 +321,7 @@ let records = [
 		"name": "tina", 
 		"replacement": true,
 		"season": 5, 
-		"fights": ["venecia-w"]
+		"fights": ["venecia-w", "lexis-w", "kiki-w", "christina-w", "lexis-w", "lexis-w"]
 	},
 	{
 		"name": "tookie", 
