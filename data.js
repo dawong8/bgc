@@ -66,10 +66,22 @@ let records = [
 		"fights": ["ashley-j-trina", "angelique-l", "angelique-l", "angelique-j-trina,beyonka,liana", "shanelle-l", "shanelle-j-liana", "savannah-l", "angela-l", "tina-l"]
 	},
 	{
+		"name": "ciara", 
+		"replacement": true,
+		"season": 10, 
+		"fights": ["gabi-w", "gabi-w", "deja-t", "tiana-w", "deja-w", "sasha-w", "deja-w"]
+	},
+	{
 		"name": "dayana", 
 		"replacement": true,
 		"season": 3, 
 		"fights": ["tookie-w", "saaphari-l", "saaphari-w", "tookie-t"]
+	},
+	{
+		"name": "deja", 
+		"replacement": false,
+		"season": 10, 
+		"fights": ["jennifer-t", "ciara-t", "ciara-l", "ciara-l"]
 	},
 	{
 		"name": "drea", 
@@ -88,6 +100,12 @@ let records = [
 		"replacement": false,
 		"season": 2, 
 		"fights": ["leila-w", "natasha-l"]
+	},
+	{
+		"name": "gabi", 
+		"replacement": true,
+		"season": 10, 
+		"fights": ["ciara-l", "ciara-l", "sasha-w"]
 	},
 	{
 		"name": "gina", 
@@ -124,6 +142,12 @@ let records = [
 		"replacement": false, 
 		"season": 9, 
 		"fights": ["alexis-l", "erica-t", "alexis-l", "haley-w"]
+	},
+	{
+		"name": "jennifer", 
+		"replacement": false,
+		"season": 10, 
+		"fights": ["sasha-l", "deja-t", "mercedies-l"]
 	},
 	{
 		"name": "karina", 
@@ -204,6 +228,12 @@ let records = [
 		"fights": ["kiki-w", "kiki-w", "chloe-w", "kiki-w", "chloe-w"]
 	},
 	{
+		"name": "mercedies", 
+		"replacement": false,
+		"season": 10, 
+		"fights": ["jennifer-w", "sasha-l", "sasha-w"]
+	},
+	{
 		"name": "mona", 
 		"replacement": false,
 		"season": 1, 
@@ -276,6 +306,12 @@ let records = [
 		"fights": ["ayella-t"]
 	},
 	{
+		"name": "sasha", 
+		"replacement": false,
+		"season": 10, 
+		"fights": ["jennifer-w", "mercedies-w", "mercedies-l", "ciara-l", "gabi-l"]
+	},
+	{
 		"name": "savannah", 
 		"replacement": false,
 		"season": 1, 
@@ -316,6 +352,12 @@ let records = [
 		"replacement": false,
 		"season": 4, 
 		"fights": ["chloe-l", "lupita-w", "j-kiki,chloe,lupita"]
+	},
+	{
+		"name": "tiana", 
+		"replacement": false,
+		"season": 10, 
+		"fights": ["ciara-l"]
 	},
 	{
 		"name": "tina", 
