@@ -72,6 +72,12 @@ let records = [
 		"fights": ["gabi-w", "gabi-w", "deja-t", "tiana-w", "deja-w", "sasha-w", "deja-w"]
 	},
 	{
+		"name": "danielle", 
+		"replacement": false,
+		"season": 11, 
+		"fights": ["kayla-w", "kayla-w", "kayla-w"]
+	},
+	{
 		"name": "dayana", 
 		"replacement": true,
 		"season": 3, 
@@ -150,6 +156,12 @@ let records = [
 		"fights": ["sasha-l", "deja-t", "mercedies-l"]
 	},
 	{
+		"name": "jojo", 
+		"replacement": true,
+		"season": 11, 
+		"fights": []
+	},
+	{
 		"name": "karina", 
 		"replacement": true,
 		"season": 6, 
@@ -160,6 +172,12 @@ let records = [
 		"replacement": true,
 		"season": 1, 
 		"fights": []
+	},
+	{
+		"name": "kayla", 
+		"replacement": false,
+		"season": 11, 
+		"fights": ["danielle-l", "danielle-l", "danielle-l", "laura-l"]
 	},
 	{
 		"name": "kendra", 
@@ -180,10 +198,22 @@ let records = [
 		"fights": ["melani-l", "melani-l", "melani-l", "tia-j-lupita,chloe", "ayella-l", "angela-l", "tina-l"]
 	},
 	{
+		"name": "latisha", 
+		"replacement": false,
+		"season": 11, 
+		"fights": ["nelly-w"]
+	},
+	{
 		"name": "latricia", 
 		"replacement": false,
 		"season": 6, 
 		"fights": []
+	},
+	{
+		"name": "laura", 
+		"replacement": true,
+		"season": 11, 
+		"fights": ["kayla-w"]
 	},
 	{
 		"name": "leila", 
@@ -234,6 +264,12 @@ let records = [
 		"fights": ["jennifer-w", "sasha-l", "sasha-w"]
 	},
 	{
+		"name": "mimi", 
+		"replacement": false,
+		"season": 11, 
+		"fights": []
+	},
+	{
 		"name": "mona", 
 		"replacement": false,
 		"season": 1, 
@@ -250,6 +286,12 @@ let records = [
 		"replacement": false,
 		"season": 2, 
 		"fights": ["random-t", "erin-w"]
+	},
+	{
+		"name": "nelly", 
+		"replacement": false,
+		"season": 11, 
+		"fights": ["latisha-l"]
 	},
 	{
 		"name": "nesse", 
