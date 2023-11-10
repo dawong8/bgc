@@ -36,6 +36,12 @@ let records = [
 		"fights": []
 	},
 	{
+		"name": "aviya", 
+		"replacement": false,
+		"season": 12, 
+		"fights": ["kalissa-l", "kalissa-l", "chikita-l", "kacey-w", "kalissa-l", "lucia-l", "maddie-t"]
+	},
+	{
 		"name": "ayella", 
 		"replacement": false,
 		"season": 8, 
@@ -54,6 +60,12 @@ let records = [
 		"fights": ["angelique-l", "angelique-j-trina,christina,liana", "shanelle-t"]
 	},
 	{
+		"name": "chikita", 
+		"replacement": false,
+		"season": 12, 
+		"fights": ["aviya-w", "lucia-t", "lucia-w", "maddie-j-rita,kacey"]
+	},
+	{
 		"name": "chloe", 
 		"replacement": false,
 		"season": 4, 
@@ -64,6 +76,12 @@ let records = [
 		"replacement": false,
 		"season": 7, 
 		"fights": ["ashley-j-trina", "angelique-l", "angelique-l", "angelique-j-trina,beyonka,liana", "shanelle-l", "shanelle-j-liana", "savannah-l", "angela-l", "tina-l"]
+	},
+	{
+		"name": "claire", 
+		"replacement": true,
+		"season": 12, 
+		"fights": ["kalissa-l"]
 	},
 	{
 		"name": "ciara", 
@@ -144,6 +162,12 @@ let records = [
 		"fights": ["tyeesha-t", "lexis-t"]
 	},
 	{
+		"name": "janisha", 
+		"replacement": false,
+		"season": 12, 
+		"fights": []
+	},
+	{
 		"name": "jayda",
 		"replacement": false, 
 		"season": 9, 
@@ -160,6 +184,18 @@ let records = [
 		"replacement": true,
 		"season": 11, 
 		"fights": []
+	},
+	{
+		"name": "kacey", 
+		"replacement": false,
+		"season": 12, 
+		"fights": ["aviya-l", "lucia-l", "maddie-l", "maddie-l", "maddie-j-chikita,rita"]
+	},
+	{
+		"name": "kalissa", 
+		"replacement": false,
+		"season": 12, 
+		"fights": ["aviya-w", "aviya-w", "aviya-w", "claire-w"]
 	},
 	{
 		"name": "karina", 
@@ -240,6 +276,12 @@ let records = [
 		"fights": ["hayden-l", "saaphari-t", "zoey-l", "yasmin-l", "yasmin-l"]
 	},
 	{
+		"name": "lucia", 
+		"replacement": true,
+		"season": 12, 
+		"fights": ["kacey-w", "aviya-w", "chikita-t", "chikita-w", "rita-w"]
+	},
+	{
 		"name": "lupita", 
 		"replacement": false,
 		"season": 4, 
@@ -250,6 +292,12 @@ let records = [
 		"replacement": true,
 		"season": 6, 
 		"fights": ["aliyah-l", "aliyah-l", "karina-l"]
+	},
+	{
+		"name": "maddie", 
+		"replacement": true,
+		"season": 12, 
+		"fights": ["aviya-t", "kacey-w", "kacey-w", "rita-w", "j-chikita,rita,kacey"]
 	},
 	{
 		"name": "melani", 
@@ -334,6 +382,12 @@ let records = [
 		"replacement": false,
 		"season": 8, 
 		"fights": ["angela-l", "angela-l", "angela-t"]
+	},
+	{
+		"name": "rita", 
+		"replacement": true,
+		"season": 12, 
+		"fights": ["maddie-l", "maddie-j-chikita,kacey"]
 	},
 	{
 		"name": "saaphari", 
