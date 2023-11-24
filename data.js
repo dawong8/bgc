@@ -60,6 +60,12 @@ let records = [
 		"fights": ["angelique-l", "angelique-j-trina,christina,liana", "shanelle-t"]
 	},
 	{
+		"name": "carli", 
+		"replacement": true,
+		"season": 13, 
+		"fights": ["tori-j-tixie,suki,liz", "tixie-l", "vanessa-l"]
+	},
+	{
 		"name": "chikita", 
 		"replacement": false,
 		"season": 12, 
@@ -111,7 +117,7 @@ let records = [
 		"name": "diamond", 
 		"replacement": false,
 		"season": 13, 
-		"fights": []
+		"fights": ["vanessa-l", "tixie-l", "j-liz,suki,tixie"]
 	},
 	{
 		"name": "drea", 
@@ -285,7 +291,7 @@ let records = [
 		"name": "liz", 
 		"replacement": false,
 		"season": 13, 
-		"fights": []
+		"fights": ["vanessa-l", "suki-t", "tixie-l", "diamond-j-suki,tixie", "tori-j-tixie,suki,carli"]
 	},
 	{
 		"name": "lucia", 
@@ -447,7 +453,7 @@ let records = [
 		"name": "suki", 
 		"replacement": false,
 		"season": 13, 
-		"fights": []
+		"fights": ["liz-t", "diamond-j-liz,tixie", "tori-l", "tori-j-tixie,liz,carli", "tori-l"]
 	},
 	{
 		"name": "symone", 
@@ -483,13 +489,19 @@ let records = [
 		"name": "tixie", 
 		"replacement": false,
 		"season": 13, 
-		"fights": []
+		"fights": ["liz-w", "vanessa-w", "diamond-w", "diamond-j-suki,liz", "tori-j-suki,carli,liz", "tori-l", "carli-w", "vanessa-t"]
 	},
 	{
 		"name": "tookie", 
 		"replacement": false,
 		"season": 3, 
 		"fights": ["dayana-w", "dayana-t", "yasmin-l"]
+	},
+	{
+		"name": "tori", 
+		"replacement": true,
+		"season": 13, 
+		"fights": ["suki-w", "j-suki,tixie,liz,carli", "tixie-w", "suki-w"]
 	},
 	{
 		"name": "trina", 
@@ -507,7 +519,7 @@ let records = [
 		"name": "vanessa", 
 		"replacement": false,
 		"season": 13, 
-		"fights": []
+		"fights": ["liz-w", "random-w", "diamond-w", "tixie-l", "tixie-t", "carli-w"]
 	},
 	{
 		"name": "venecia", 
