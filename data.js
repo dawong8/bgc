@@ -60,6 +60,12 @@ let records = [
 		"fights": ["angelique-l", "angelique-j-trina,christina,liana", "shanelle-t"]
 	},
 	{
+		"name": "blumarie", 
+		"replacement": false,
+		"season": 14, 
+		"fights": ["tiffany-w", "monique-w", "monique-w", "jasmine-w"]
+	},
+	{
 		"name": "carli", 
 		"replacement": true,
 		"season": 13, 
@@ -180,6 +186,12 @@ let records = [
 		"fights": []
 	},
 	{
+		"name": "jasmine", 
+		"replacement": true,
+		"season": 14, 
+		"fights": ["blumarie-l", "kamika-l", "tiffany-w", "kamika-t"]
+	},
+	{
 		"name": "jayda",
 		"replacement": false, 
 		"season": 9, 
@@ -208,6 +220,12 @@ let records = [
 		"replacement": false,
 		"season": 12, 
 		"fights": ["aviya-w", "aviya-w", "aviya-w", "claire-w", "janae-w", "janae-w"]
+	},
+	{
+		"name": "kamika", 
+		"replacement": false,
+		"season": 14, 
+		"fights": ["monique-w", "monique-t", "jasmine-w", "jasmine-t"]
 	},
 	{
 		"name": "karina", 
@@ -342,6 +360,12 @@ let records = [
 		"fights": ["savannah-l"]
 	},
 	{
+		"name": "monique", 
+		"replacement": false,
+		"season": 14, 
+		"fights": ["kamika-l", "blumarie-l", "kamika-t", "blumarie-l"]
+	},
+	{
 		"name": "nat", 
 		"replacement": true,
 		"season": 2, 
@@ -406,6 +430,12 @@ let records = [
 		"replacement": true,
 		"season": 12, 
 		"fights": ["maddie-l", "maddie-j-chikita,kacey"]
+	},
+	{
+		"name": "rock", 
+		"replacement": false,
+		"season": 14, 
+		"fights": []
 	},
 	{
 		"name": "saaphari", 
@@ -478,6 +508,12 @@ let records = [
 		"replacement": false,
 		"season": 10, 
 		"fights": ["ciara-l"]
+	},
+	{
+		"name": "tiffany", 
+		"replacement": false,
+		"season": 14, 
+		"fights": ["blumarie-l", "jasmine-l"]
 	},
 	{
 		"name": "tina", 
