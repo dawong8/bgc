@@ -39,7 +39,7 @@ let records = [
 		"name": "aviya", 
 		"replacement": false,
 		"season": 12, 
-		"fights": ["kalissa-l", "kalissa-l", "chikita-l", "kacey-w", "kalissa-l", "lucia-l", "maddie-t"]
+		"fights": ["kalissa-l", "kalissa-l", "chikita-l", "kacey-w", "kalissa-l", "lucia-l", "maddie-t", "vanessa-l"]
 	},
 	{
 		"name": "ayella", 
@@ -63,7 +63,7 @@ let records = [
 		"name": "blumarie", 
 		"replacement": false,
 		"season": 14, 
-		"fights": ["tiffany-w", "monique-w", "monique-w", "jasmine-w"]
+		"fights": ["tiffany-w", "monique-w", "monique-w", "jasmine-w", "lynesha-t", "tookie-w", "vanessa-l", "lynesha-t", "tookie-l"]
 	},
 	{
 		"name": "carli", 
@@ -327,7 +327,7 @@ let records = [
 		"name": "lynesha", 
 		"replacement": true,
 		"season": 6, 
-		"fights": ["aliyah-l", "aliyah-l", "karina-l"]
+		"fights": ["aliyah-l", "aliyah-l", "karina-l", "blumarie-t", "blumarie-t"]
 	},
 	{
 		"name": "maddie", 
@@ -531,7 +531,7 @@ let records = [
 		"name": "tookie", 
 		"replacement": false,
 		"season": 3, 
-		"fights": ["dayana-w", "dayana-t", "yasmin-l"]
+		"fights": ["dayana-w", "dayana-t", "yasmin-l", "vanessa-w", "blumarie-l", "blumarie-w", "vanessa-l"]
 	},
 	{
 		"name": "tori", 
@@ -555,7 +555,7 @@ let records = [
 		"name": "vanessa", 
 		"replacement": false,
 		"season": 13, 
-		"fights": ["liz-w", "random-w", "diamond-w", "tixie-l", "tixie-t", "carli-w"]
+		"fights": ["liz-w", "random-w", "diamond-w", "tixie-l", "tixie-t", "carli-w", "aviya-w", "tookie-l", "blumarie-w", "tookie-w"]
 	},
 	{
 		"name": "venecia", 
