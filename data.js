@@ -6,6 +6,36 @@ let records = [
 		"fights": ["jayda-w", "haley-w", "jayda-w", "iris-w", "nat-w"]
 	},
 	{
+		"name": "diamond",
+		"replacement": false, 
+		"season": 16, 
+		"fights": []
+	},
+	{
+		"name": "malia",
+		"replacement": false, 
+		"season": 16, 
+		"fights": []
+	},
+	{
+		"name": "tatianna",
+		"replacement": false, 
+		"season": 16, 
+		"fights": []
+	},
+	{
+		"name": "chasity",
+		"replacement": false, 
+		"season": 16, 
+		"fights": []
+	},
+	{
+		"name": "romi",
+		"replacement": false, 
+		"season": 16, 
+		"fights": []
+	},
+	{
 		"name": "aliyah",
 		"replacement": false, 
 		"season": 6, 
