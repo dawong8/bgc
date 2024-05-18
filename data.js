@@ -6,7 +6,7 @@ let records = [
 		"fights": ["jayda-w", "haley-w", "jayda-w", "iris-w", "nat-w"]
 	},
 	{
-		"name": "diamond",
+		"name": "ebonique",
 		"replacement": false, 
 		"season": 16, 
 		"fights": []
