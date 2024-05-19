@@ -9,31 +9,41 @@ let records = [
 		"name": "ebonique",
 		"replacement": false, 
 		"season": 16, 
-		"fights": []
+		"fights": ["malia-t", "romi-w", "chasity-w", "gia-w", "chasity-t", "tatianna-w"]
+	},{
+		"name": "janessa",
+		"replacement": true, 
+		"season": 16, 
+		"fights": ["tatianna-t", "tatianna-l", "gia-t", "gia-l"]
+	},{
+		"name": "gia",
+		"replacement": true, 
+		"season": 16, 
+		"fights": ["tatianna-t", "ebonique-l", "janessa-t", "janessa-w", "tatianna-t"]
 	},
 	{
 		"name": "malia",
 		"replacement": false, 
 		"season": 16, 
-		"fights": []
+		"fights": ["ebonique-t", "chasity-t", "chasity-l"]
 	},
 	{
 		"name": "tatianna",
 		"replacement": false, 
 		"season": 16, 
-		"fights": []
+		"fights": ["romi-t", "romi-l", "janessa-t", "romi-t", "chasity-t", "gia-t", "chasity-l", "chasity-l", "chasity-l", "janessa-w", "romi-l", "gia-t", "chasity-t", "ebonique-l"]
 	},
 	{
 		"name": "chasity",
 		"replacement": false, 
 		"season": 16, 
-		"fights": []
+		"fights": ["romi-t", "ebonique-l", "malia-t", "malia-w", "tatianna-t", "ebonique-t", "tatianna-w", "tatianna-w", "tatianna-w", "tatianna-t"]
 	},
 	{
 		"name": "romi",
 		"replacement": false, 
 		"season": 16, 
-		"fights": []
+		"fights": ["tatianna-t", "tatianna-w", "chasity-t", "tatianna-t", "tatianna-w"]
 	},
 	{
 		"name": "aliyah",
