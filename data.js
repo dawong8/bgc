@@ -499,7 +499,7 @@ let records = [
 		"name": "rita", 
 		"replacement": true,
 		"season": 12, 
-		"fights": ["maddie-l", "maddie-j-chikita,kacey"]
+		"fights": ["maddie-l", "maddie-j-chikita,kacey", "lucia-l"]
 	},
 	{
 		"name": "rock", 
