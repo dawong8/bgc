@@ -1309,34 +1309,110 @@ let records = [
         "replacement": false,
         "season": 17,
         "city": "Harlem, NY",
-        "fights": []
+        "fights": [
+        	"april-w",
+        	"april-w",
+        	"stella-l", 
+        	"naj-l",
+        	"naj-l",
+        	"stella-l",
+        	"monisha-l"
+        	]
     },
     {
         "name": "april",
         "replacement": false,
         "city": "Boston, MA",
         "season": 17,
-        "fights": []
+        "fights": [
+        	"alisha-l",
+        	"alisha-l",
+        	"naj-l",
+        	"cheerie-l",
+        	"chanel-l"
+        	]
     },
     {
         "name": "chanel",
         "city": "Miami, FL",
         "replacement": false,
         "season": 17,
-        "fights": []
+        "fights": [
+        	"naj-l",
+        	"naj-l",
+        	"lala-t",
+        	"stella=l",
+        	"lala-l",
+        	"lala-w",
+        	"cheerie-t",
+        	"lala-w",
+        	"april-w"
+        	]
     },
     {
         "name": "naj",
         "replacement": false,
         "city": "Richmond, VA",
         "season": 17,
-        "fights": []
+        "fights": [
+        	"alisha-w",
+        	"alisha-w",
+        	"april-w",
+        	"chanel-w",
+        	"chanel-w",
+        	"random-w",
+        	"stella-w",
+        	"stella=t"
+        	]
     },
     {
         "name": "stella",
         "replacement": false,
         "city": "Salt Lake City, UT",
         "season": 17,
-        "fights": []
+        "fights": [
+        	"alisha-w",
+        	"alisha-w",
+        	"cheerie-t",
+        	"chanel-w",
+        	"lala-w",
+        	"naj-l",
+        	"monisha-l",
+        	"naj-t"
+        	]
+    },
+    {
+        "name": "cheerie",
+        "replacement": true,
+        "city": "Houston, TX",
+        "season": 17,
+        "fights": [
+        	"april-w",
+        	"stella-t",
+        	"chanel-t"
+        	]
+    },
+    {
+        "name": "lala",
+        "replacement": true,
+        "city": "Reno, NV",
+        "season": 17,
+        "fights": [
+        	"chanel-t",
+        	"stella-l",
+        	"chanel-w",
+        	"chanel-l",
+        	"chanel-l"
+        	]
+    },
+    {
+        "name": "monisha",
+        "replacement": true,
+        "city": "Richmond, VA",
+        "season": 17,
+        "fights": [
+        	"stella-w",
+        	"alisha-w"
+        	]
     }
 ]
