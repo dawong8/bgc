@@ -1362,7 +1362,7 @@ let records = [
         	"chanel-w",
         	"random-w",
         	"stella-w",
-        	"stella=t"
+        	"stella-t"
         	]
     },
     {
