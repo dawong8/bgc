@@ -1341,7 +1341,7 @@ let records = [
         	"naj-l",
         	"naj-l",
         	"lala-t",
-        	"stella=l",
+        	"stella-l",
         	"lala-l",
         	"lala-w",
         	"cheerie-t",
