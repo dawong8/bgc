@@ -71,6 +71,7 @@ function sortByNumFights(a, b) {
   }
 }
 
+
 function sortByName(a, b) {
   if (a.name > b.name) {
     return 1; 
@@ -102,7 +103,7 @@ function sortByCity(a, b) {
 }
 
 
-records = records.sort(sortByNumFights); //shuffle(records);
+records = records.sort(sortBySeason); //shuffle(records);
 console.log("records", records)
 
 for (let i = 0; i < records.length; i ++) {
