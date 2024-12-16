@@ -23,7 +23,6 @@ img {
 .img-container {
 	cursor: pointer;
 	position:relative;
-	border: 1px pink solid;
 }
 .img-container:hover {
 	opacity: .6;
