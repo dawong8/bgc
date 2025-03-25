@@ -103,7 +103,7 @@ function sortByCity(a, b) {
 }
 
 
-records = records.sort(sortBySeason); //shuffle(records);
+records = records.sort(sortByNumFights); //shuffle(records);
 console.log("records", records)
 
 for (let i = 0; i < records.length; i ++) {
