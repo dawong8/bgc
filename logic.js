@@ -112,7 +112,7 @@ for (let i = 0; i < records.length; i ++) {
 	$pic1 = $(`<div class="img-container">
 		<img data-og='${records[i].replacement ? "Replacement": "Original"}' data-season='${records[i].season}' src='./images/${records[i].name}.png' onclick='onClick(this)' alt='${records[i].name}'>
 		<div class="namePlate"> ${records[i].name} </div>
-    <div class="seasonPlate"> Season ${records[i].season} </div>
+    <div class="seasonPlate"> S${records[i].season}-${records[i].city} </div>
     </div>`);
 
 	$("#photo-grid").append($pic1);
