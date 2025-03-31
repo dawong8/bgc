@@ -12,12 +12,9 @@ img {
     justify-content: center;
 }
 
-.replacement {
-	border: 5px solid orange;
-}
-
-.original {
-	border: 5px solid black;
+h4 {
+    color: gold;
+    font-weight: bolder;
 }
 
 .img-container {
@@ -27,6 +24,10 @@ img {
 .img-container:hover {
 	opacity: .6;
 	filter: blur(2px);
+}
+
+#otherSeasons {
+    color: lightgrey;
 }
 
 .name-plate {

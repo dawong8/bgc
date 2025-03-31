@@ -1,6 +1,29 @@
 
-console.log("here:", records);
-
+const seasonNames = {
+  1: "Los Angeles", 
+  2: "NYC", 
+  3: "Miami", 
+  4: "Atlanta", 
+  5: "Chicago",
+  6: "Houston",
+  7: "Las Vegas",
+  8: "Phoenix",
+  9: "Cincinnati",
+  10: "Atlantic City",
+  11: "Forcible",
+  12: "Euphoria",
+  13: "Unforgiven",
+  14: "Temptation",
+  15: "Insatiable Sisters",
+  16: "Resurgence",
+  17: "Seduction",
+  A1: "BGC All Stars 1: Heroes vs Villains",
+  A2: "BGC All Stars 2: Rivals",
+  A3: "BGC All Stars 3: Redemption",
+  B1: "Baddies Girls Trip",
+  B2: "Baddies South",
+  B3: "Baddies West"
+}
 // sort records by random? 
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
@@ -104,15 +127,19 @@ function sortByCity(a, b) {
 
 
 records = records.sort(sortByNumFights); //shuffle(records);
-console.log("records", records)
+
 
 for (let i = 0; i < records.length; i ++) {
 	let $pic1; 
-
-	$pic1 = $(`<div class="img-container">
-		<img data-og='${records[i].replacement ? "Replacement": "Original"}' data-season='${records[i].season}' src='./images/${records[i].name}.png' onclick='onClick(this)' alt='${records[i].name}'>
+  let seasonNameTitle = records[i].season[0] !== 'B' ? `BGC ${records[i].season}: ${seasonNames[records[i].season]}` : `${seasonNames[records[i].season]}`
+	let otherSeasons = records[i].additionalSeasons.map(x=> seasonNames[x]).join(",");
+  $pic1 = $(`<div class="img-container">
+		<img data-og='${records[i].replacement ? "Replacement": "Original"}' data-season='${seasonNameTitle}' 
+    data-city='${records[i].city}'
+    data-otherSeasons='${otherSeasons}'
+    src='./images/${records[i].name}.png' onclick='onClick(this)' alt='${records[i].name}'>
 		<div class="namePlate"> ${records[i].name} </div>
-    <div class="seasonPlate"> S${records[i].season}-${records[i].city} </div>
+    <div class="seasonPlate"> ${seasonNameTitle} </div>
     </div>`);
 
 	$("#photo-grid").append($pic1);
