@@ -93,6 +93,7 @@ function onClick(element) {
   captionText.innerHTML = element.alt; //name
   $("#season").html(element.dataset.season);
   $("#city").html(element.dataset.city);
+  $("#otherSeasons").empty();
   element.dataset.otherseasons.split(",").forEach(function(item) {
       $("#otherSeasons").append("<p>" + item + "</p>");
   });
