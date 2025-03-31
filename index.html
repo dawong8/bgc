@@ -16,10 +16,7 @@
 </head>
 <body class="w3-light-grey">
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">BAD GIRLS CLUB</span>
-</header>
+
 
 
 <!-- !PAGE CONTENT! -->
@@ -37,13 +34,18 @@
     <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
     <div class="w3-modal-content w3-row w3-animate-zoom w3-center w3-transparent w3-padding-64" style="width:75%">
       <div class="w3-quarter">
+        <h1 class="name-plate" id="caption"></h1>
+                <h5 id="city"> </h5>
+
         <img id="img01" class="w3-image">
+
       </div>
       <div class="w3-threequarter">
-          <h5 id="season"> </h5>
+          <h4 id="season"> </h4>
+          <p id="otherSeasons"> </p>
 
-          <h1 class="name-plate" id="caption"></h1>
-        
+          
+
         <p class="og" id="original"> </p>
 
         <br/>
@@ -89,7 +91,12 @@ function onClick(element) {
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt; //name
-  $("#season").html("Season " + element.dataset.season);
+  $("#season").html(element.dataset.season);
+  $("#city").html(element.dataset.city);
+  element.dataset.otherseasons.split(",").forEach(function(item) {
+      $("#otherSeasons").append("<p>" + item + "</p>");
+  });
+
   $("#original").text(element.dataset.og);
 
   let bgcObj = findBGC(element.alt);
@@ -117,7 +124,7 @@ function onClick(element) {
         if (t !== people.length-1) {
           opponent += ", "
         } 
-        imageStr += `<img class='opponent-image' src='./images/${people[t]}.png' />`
+        imageStr += `<img class='opponent-image'  src='./images/${people[t]}.png' />`
       }
       $images = $(`<div class="jump-container">${imageStr}</div>`);
       fullText = element.alt + " vs. " + opponent; 

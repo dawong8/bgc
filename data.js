@@ -1,17 +1,207 @@
 let records = [
     {
+        "name": "badd lacey",
+        "replacement": false,
+        "city": "Los Angeles, CA",
+        "season": "B3",
+        "fights": [
+            "sky-l",
+            "chloe-w"
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "imani london",
+        "replacement": false,
+        "city": "Sacramento, CA",
+        "season": "B3",
+        "fights": [
+            "erica-w",
+            "erica-w",
+            "melina garcia-w",
+            "tookie ca$h-w",
+            "big sapphire-w",
+            "big sapphire-w"
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "coco barbie",
+        "replacement": false,
+        "city": "Las Vegas, NV",
+        "season": "B3",
+        "fights": [
+            "melina garcia-t", 
+            "melina garcia-t",
+            "melina garcia-w",
+            "gucci j-l",
+            "pretty jaz-l",
+            "pretty jaz-l"
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "gucci j",
+        "replacement": false,
+        "city": "Long Beach, CA",
+        "season": "B3",
+        "fights": [
+            "razor-t",
+            "tookie ca$h-w",
+            "coco barbie-w"
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "royce",
+        "replacement": false,
+        "city": "Compton, CA",
+        "season": "B3",
+        "fights": [
+            "tookie ca$h-w",
+            "big sapphire-t",
+            "big sapphire-l"
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "sky",
+        "replacement": false,
+        "city": "Austin, TX",
+        "season": "B2",
+        "fights": [
+            "kalissa-w",
+            "kalissa-w",
+            "pretty jaz-w",
+            "big sapphire-w",
+            "big sapphire-w",
+            "kalissa-t",
+            "badd lacey-w",
+            "pretty jaz-w"
+        ],
+        "additionalSeasons": [
+            "B3"
+        ]
+    },
+    {
+        "name": "razor",
+        "replacement": false,
+        "city": "Birmingham, AL",
+        "season": "B2",
+        "fights": [
+            "pretty jaz-t",
+            "big sapphire-t",
+            "jojo-w",
+            "jojo-w",
+            "gucci j-t"
+        ],
+        "additionalSeasons": [
+            "B3"
+        ]
+    },
+    {
+        "name": "jaylene",
+        "replacement": false,
+        "city": "New Orleans, LA",
+        "season": "B2",
+        "fights": [
+            "pretty jaz-l",
+            "pretty jaz-l",
+        ],
+        "additionalSeasons": [
+            
+        ]
+    },
+    {
+        "name": "melina garcia",
+        "replacement": false,
+        "city": "Santa Fe, NM",
+        "season": "B2",
+        "fights": [
+            "big sapphire-t",
+            "jojo-w",
+            "latisha-t",
+            "coco barbie-t",
+            "coco barbie-t",
+            "coco barbie-l",
+            "imani london-l"
+        ],
+        "additionalSeasons": [
+            "B3"
+        ]
+    },
+    {
+        "name": "pretty jaz",
+        "replacement": false,
+        "city": "Austin, TX",
+        "season": "B2",
+        "fights": [
+            "big sapphire-l",
+            "big sapphire-l",
+            "razor-t", 
+            "jaylene-w",
+            "jaylene-w",
+            "sky-l",
+            "kalissa-t",
+            "kalissa-w",
+            "chloe-w",
+            "chloe-w",
+            "sky-l",
+            "coco barbie-w",
+            "coco barbie-w"
+        ],
+        "additionalSeasons": [
+            "B3"
+        ]
+    },
+    {
+        "name": "big sapphire",
+        "replacement": false,
+        "city": "Dallas, TX",
+        "season": "B2",
+        "fights": [
+            "pretty jaz-w",
+            "pretty jaz-w",
+            "melina garcia-t",
+            "mona-w",
+            "razor-t",
+            "sky-l",
+            "sky-l",
+            "royce-t",
+            "imani london-l",
+            "imani london-l",
+            "royce-w"
+        ],
+        "additionalSeasons": [
+            "B3"
+        ]
+    },
+    {
         "name": "gina",
         "replacement": false,
         "city": "Atlantic City, NJ",
         "season": 1,
-        "fights": []
+        "fights": [
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "katie",
         "replacement": true,
         "city": "Nashville, TN",
         "season": 1,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "mona",
@@ -19,8 +209,11 @@ let records = [
         "city": "Atlanta, GA",
         "season": 1,
         "fights": [
-            "savannah-l"
-        ]
+            "savannah-l",
+            "big sapphire-l",
+            "cheerie-t"
+        ],
+        "additionalSeasons": [ "B1", "B2", "B3"]
     },
     {
         "name": "nora",
@@ -30,7 +223,8 @@ let records = [
         "fights": [
             "savannah-w",
             "savannah-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "savannah",
@@ -42,14 +236,16 @@ let records = [
             "nora-w",
             "mona-w",
             "christina-w"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "symone",
         "replacement": false,
         "city": "Brooklyn, NY",
         "season": 1,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "erin",
@@ -61,7 +257,8 @@ let records = [
             "natasha-l",
             "danielle-t",
             "janae-l"
-        ]
+        ],
+        "additionalSeasons": [ "A2"]
     },
     {
         "name": "keysha",
@@ -72,7 +269,8 @@ let records = [
             "random-w",
             "patricia-w",
             "leila-w"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "leila",
@@ -82,7 +280,8 @@ let records = [
         "fights": [
             "erin-l",
             "keysha-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "nat",
@@ -93,7 +292,8 @@ let records = [
             "danielle-l",
             "danielle-l",
             "alexis-l"
-        ]
+        ],
+        "additionalSeasons": [ "A2"]
     },
     {
         "name": "natasha",
@@ -103,7 +303,8 @@ let records = [
         "fights": [
             "random-t",
             "erin-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "patricia",
@@ -112,7 +313,8 @@ let records = [
         "season": 2,
         "fights": [
             "keysha-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "dayana",
@@ -120,11 +322,12 @@ let records = [
         "city": "Columbus, OH",
         "season": 3,
         "fights": [
-            "tookie-w",
+            "tookie ca$h-w",
             "saaphari-l",
             "saaphari-w",
-            "tookie-t"
-        ]
+            "tookie ca$h-t"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "hayden",
@@ -134,7 +337,8 @@ let records = [
         "fights": [
             "lindsey-w",
             "zoey-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "lindsey",
@@ -147,7 +351,8 @@ let records = [
             "zoey-l",
             "yasmin-l",
             "yasmin-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "saaphari",
@@ -158,10 +363,11 @@ let records = [
             "lindsey-t",
             "dayana-w",
             "dayana-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
-        "name": "tookie",
+        "name": "tookie ca$h",
         "replacement": false,
         "city": "Compton, CA",
         "season": 3,
@@ -172,8 +378,12 @@ let records = [
             "vanessa-w",
             "blumarie-l",
             "blumarie-w",
-            "vanessa-l"
-        ]
+            "vanessa-l",
+            "gucci j-l",
+            "royce-l",
+            "imani london-l"
+        ],
+        "additionalSeasons": [ "A3", "B3"]
     },
     {
         "name": "yasmin",
@@ -183,9 +393,10 @@ let records = [
         "fights": [
             "lindsey-w",
             "lindsey-w",
-            "tookie-w",
+            "tookie ca$h-w",
             "angelique-l"
-        ]
+        ],
+        "additionalSeasons": [ "A2"]
     },
     {
         "name": "zoey",
@@ -195,7 +406,8 @@ let records = [
         "fights": [
             "lindsey-w",
             "hayden-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "chloe",
@@ -205,8 +417,12 @@ let records = [
         "fights": [
             "tia-w",
             "tia-j-lupita,kiki",
-            "melani-l"
-        ]
+            "melani-l",
+            "pretty jaz-l",
+            "pretty jaz-l",
+            "badd lacey-l"
+        ],
+        "additionalSeasons": [ "B3"]
     },
     {
         "name": "kiki",
@@ -221,7 +437,8 @@ let records = [
             "ayella-l",
             "angela-l",
             "tina-l"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "lupita",
@@ -231,7 +448,8 @@ let records = [
         "fights": [
             "tia-l",
             "tia-j-chloe,kiki"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "melani",
@@ -244,14 +462,16 @@ let records = [
             "chloe-w",
             "kiki-w",
             "chloe-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "sel",
         "city": "San Antonio, TX",
         "replacement": true,
         "season": 4,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "tia",
@@ -262,14 +482,16 @@ let records = [
             "chloe-l",
             "lupita-w",
             "j-kiki,chloe,lupita"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "ashlynn",
         "replacement": true,
         "city": "Allendale, NJ",
         "season": 5,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "janae",
@@ -282,7 +504,8 @@ let records = [
             "kalissa-l",
             "erin-w",
             "kalissa-l"
-        ]
+        ],
+        "additionalSeasons": ["A2"]
     },
     {
         "name": "kendra",
@@ -292,7 +515,8 @@ let records = [
         "fights": [
             "venecia-w",
             "lexis-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "lexis",
@@ -306,7 +530,8 @@ let records = [
             "tina-l",
             "tina-l",
             "tina-l"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "rayleigh",
@@ -318,7 +543,8 @@ let records = [
             "tyeesha-w",
             "tyeesha-l",
             "lexis-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "tina",
@@ -332,7 +558,8 @@ let records = [
             "christina-w",
             "lexis-w",
             "lexis-w"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "tyeesha",
@@ -344,7 +571,8 @@ let records = [
             "rayleigh-l",
             "rayleigh-w",
             "janae-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "venecia",
@@ -354,7 +582,8 @@ let records = [
         "fights": [
             "kendra-l",
             "tina-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "aliyah",
@@ -370,7 +599,8 @@ let records = [
             "lynesha-w",
             "lynesha-w",
             "drea-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "drea",
@@ -390,7 +620,8 @@ let records = [
             "aliyah-w",
             "paige-w",
             "karina-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "karina",
@@ -400,14 +631,16 @@ let records = [
         "fights": [
             "lynesha-w",
             "drea-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "latricia",
         "replacement": false,
         "city": "Denver, CO",
         "season": 6,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "lynesha",
@@ -420,7 +653,8 @@ let records = [
             "karina-l",
             "blumarie-t",
             "blumarie-t"
-        ]
+        ],
+        "additionalSeasons": [ "A3"]
     },
     {
         "name": "nesse",
@@ -431,7 +665,8 @@ let records = [
             "drea-l",
             "drea-l",
             "stephanie-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "paige",
@@ -440,7 +675,8 @@ let records = [
         "season": 6,
         "fights": [
             "drea-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "stephanie",
@@ -450,7 +686,8 @@ let records = [
         "fights": [
             "drea-l",
             "nesse-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "angelique",
@@ -467,7 +704,8 @@ let records = [
             "liana-t",
             "liana-w",
             "yasmin-w"
-        ]
+        ],
+        "additionalSeasons": [ "A2"]
     },
     {
         "name": "ashley",
@@ -477,7 +715,8 @@ let records = [
         "fights": [
             "liana-w",
             "j-trina,christina"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "beyonka",
@@ -488,7 +727,8 @@ let records = [
             "angelique-l",
             "angelique-j-trina,christina,liana",
             "shanelle-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "christina",
@@ -505,7 +745,8 @@ let records = [
             "savannah-l",
             "angela-l",
             "tina-l"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "liana",
@@ -522,7 +763,8 @@ let records = [
             "shanelle-j-christina",
             "angelique-t",
             "angelique-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "shanelle",
@@ -535,7 +777,8 @@ let records = [
             "liana-t",
             "j-liana,christina",
             "beyonka-t"
-        ]
+        ],
+        "additionalSeasons": ["A2"]
     },
     {
         "name": "trina",
@@ -546,7 +789,8 @@ let records = [
             "ashley-j-christina",
             "angelique-j-beyonka,christina,liana",
             "angelique-j-liana"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "angela",
@@ -565,7 +809,8 @@ let records = [
             "rebecca-t",
             "kiki-w",
             "christina-w"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "ayella",
@@ -575,7 +820,8 @@ let records = [
         "fights": [
             "sam-t",
             "kiki-w"
-        ]
+        ],
+        "additionalSeasons": ["A1"]
     },
     {
         "name": "banisha",
@@ -584,7 +830,8 @@ let records = [
         "season": 8,
         "fights": [
             "angela-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "rebecca",
@@ -595,7 +842,8 @@ let records = [
             "angela-l",
             "angela-l",
             "angela-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "sam",
@@ -604,7 +852,8 @@ let records = [
         "season": 8,
         "fights": [
             "ayella-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "taynice",
@@ -617,7 +866,8 @@ let records = [
             "angela-t",
             "angela-w",
             "angela-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "alexis",
@@ -630,7 +880,8 @@ let records = [
             "jayda-w",
             "iris-w",
             "nat-w"
-        ]
+        ],
+        "additionalSeasons": ["A2"]
     },
     {
         "name": "erica",
@@ -639,8 +890,11 @@ let records = [
         "season": 9,
         "fights": [
             "jayda-t",
-            "iris-w"
-        ]
+            "iris-w",
+            "imani london-l",
+            "imani london-l"
+        ],
+        "additionalSeasons": [ "B3" ]
     },
     {
         "name": "haley",
@@ -652,7 +906,8 @@ let records = [
             "nikki-t",
             "jayda-l",
             "nikki-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "iris",
@@ -662,7 +917,8 @@ let records = [
         "fights": [
             "erica-l",
             "alexis-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "jayda",
@@ -674,7 +930,8 @@ let records = [
             "erica-t",
             "alexis-l",
             "haley-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "nikki",
@@ -684,7 +941,8 @@ let records = [
         "fights": [
             "haley-t",
             "haley-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "ciara",
@@ -699,7 +957,8 @@ let records = [
             "deja-w",
             "sasha-w",
             "deja-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "deja",
@@ -711,7 +970,8 @@ let records = [
             "ciara-t",
             "ciara-l",
             "ciara-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "gabi",
@@ -722,7 +982,8 @@ let records = [
             "ciara-l",
             "ciara-l",
             "sasha-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "jennifer",
@@ -733,7 +994,8 @@ let records = [
             "sasha-l",
             "deja-t",
             "mercedies-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "mercedies",
@@ -744,7 +1006,8 @@ let records = [
             "jennifer-w",
             "sasha-l",
             "sasha-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "sasha",
@@ -757,7 +1020,8 @@ let records = [
             "mercedies-l",
             "ciara-l",
             "gabi-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "tiana",
@@ -766,7 +1030,8 @@ let records = [
         "season": 10,
         "fights": [
             "ciara-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "danielle",
@@ -780,14 +1045,20 @@ let records = [
             "nat-w",
             "nat-w",
             "erin-t"
-        ]
+        ],
+        "additionalSeasons": [ "A2"]
     },
     {
         "name": "jojo",
         "replacement": true,
         "city": "San Antonio, TX",
         "season": 11,
-        "fights": []
+        "fights": [
+            "melina garcia-l",
+            "razor-l",
+            "razor-l"
+        ],
+        "additionalSeasons": [ "B2" ]
     },
     {
         "name": "kayla",
@@ -799,7 +1070,8 @@ let records = [
             "danielle-l",
             "danielle-l",
             "laura-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "latisha",
@@ -807,8 +1079,10 @@ let records = [
         "city": "Houston, TX",
         "season": 11,
         "fights": [
-            "nelly-w"
-        ]
+            "nelly-w",
+            "melina garcia-t"
+        ],
+        "additionalSeasons": [ "B2"]
     },
     {
         "name": "laura",
@@ -817,14 +1091,16 @@ let records = [
         "season": 11,
         "fights": [
             "kayla-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "mimi",
         "replacement": false,
         "city": "St Louis, MO",
         "season": 11,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "nelly",
@@ -833,7 +1109,8 @@ let records = [
         "city": "Kansas City, KS",
         "fights": [
             "latisha-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "aviya",
@@ -849,7 +1126,8 @@ let records = [
             "lucia-l",
             "maddie-t",
             "vanessa-l"
-        ]
+        ],
+        "additionalSeasons": [ "A3"]
     },
     {
         "name": "chikita",
@@ -861,7 +1139,8 @@ let records = [
             "lucia-t",
             "lucia-l",
             "maddie-j-rita,kacey"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "claire",
@@ -870,14 +1149,16 @@ let records = [
         "season": 12,
         "fights": [
             "kalissa-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "janisha",
         "replacement": false,
         "city": "Orlando, FL",
         "season": 12,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "kacey",
@@ -890,7 +1171,8 @@ let records = [
             "maddie-l",
             "maddie-l",
             "maddie-j-chikita,rita"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "kalissa",
@@ -903,8 +1185,14 @@ let records = [
             "aviya-w",
             "claire-w",
             "janae-w",
-            "janae-w"
-        ]
+            "janae-w",
+            "sky-l",
+            "sky-l",
+            "sky-t",
+            "pretty jaz-t",
+            "pretty jaz-l"
+        ],
+        "additionalSeasons": [ "A2", "B2"]
     },
     {
         "name": "lucia",
@@ -917,7 +1205,8 @@ let records = [
             "chikita-t",
             "chikita-w",
             "rita-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "maddie",
@@ -930,7 +1219,8 @@ let records = [
             "kacey-w",
             "rita-w",
             "j-chikita,rita,kacey"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "rita",
@@ -941,7 +1231,8 @@ let records = [
             "maddie-l",
             "maddie-j-chikita,kacey",
             "lucia-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "carli",
@@ -952,7 +1243,8 @@ let records = [
             "tori-j-tixie,suki,liz",
             "tixie-l",
             "vanessa-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "diamond",
@@ -963,7 +1255,8 @@ let records = [
             "vanessa-l",
             "tixie-l",
             "j-liz,suki,tixie"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "liz",
@@ -976,7 +1269,8 @@ let records = [
             "tixie-l",
             "diamond-j-suki,tixie",
             "tori-j-tixie,suki,carli"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "suki",
@@ -989,7 +1283,8 @@ let records = [
             "tori-l",
             "tori-j-tixie,liz,carli",
             "tori-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "tixie",
@@ -1005,7 +1300,8 @@ let records = [
             "tori-l",
             "carli-w",
             "vanessa-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "tori",
@@ -1017,7 +1313,8 @@ let records = [
             "j-suki,tixie,liz,carli",
             "tixie-w",
             "suki-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "vanessa",
@@ -1032,10 +1329,11 @@ let records = [
             "tixie-t",
             "carli-w",
             "aviya-w",
-            "tookie-l",
+            "tookie ca$h-l",
             "blumarie-w",
-            "tookie-w"
-        ]
+            "tookie ca$h-w"
+        ],
+        "additionalSeasons": [ "A3"]
     },
     {
         "name": "blumarie",
@@ -1048,11 +1346,12 @@ let records = [
             "monique-w",
             "jasmine-w",
             "lynesha-t",
-            "tookie-w",
+            "tookie ca$h-w",
             "vanessa-l",
             "lynesha-t",
-            "tookie-l"
-        ]
+            "tookie ca$h-l"
+        ],
+        "additionalSeasons": [ "A3"]
     },
     {
         "name": "jasmine",
@@ -1064,7 +1363,8 @@ let records = [
             "kamika-l",
             "tiffany-w",
             "kamika-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "kamika",
@@ -1076,7 +1376,8 @@ let records = [
             "monique-t",
             "jasmine-w",
             "jasmine-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "monique",
@@ -1088,14 +1389,16 @@ let records = [
             "blumarie-l",
             "kamika-t",
             "blumarie-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "rock",
         "replacement": false,
         "city": "Chicago, IL",
         "season": 14,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "tiffany",
@@ -1105,7 +1408,8 @@ let records = [
         "fights": [
             "blumarie-l",
             "jasmine-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "carina",
@@ -1117,7 +1421,8 @@ let records = [
             "shanice-l",
             "kyra-l",
             "halisha-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "charice",
@@ -1130,7 +1435,8 @@ let records = [
             "kyra-w",
             "j-jaylin,carina",
             "kyra-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "halisha",
@@ -1146,7 +1452,8 @@ let records = [
             "shanice-l",
             "jaylin-w",
             "carina-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "jaylin",
@@ -1156,7 +1463,8 @@ let records = [
         "fights": [
             "charice-j-carina",
             "halisha-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "kyra",
@@ -1168,7 +1476,8 @@ let records = [
             "charice-l",
             "carina-w",
             "charice-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "shanice",
@@ -1181,14 +1490,16 @@ let records = [
             "halisha-w",
             "carina-w",
             "willa-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "toni",
         "replacement": false,
         "city": "Detriot, MI",
         "season": 15,
-        "fights": []
+        "fights": [],
+        "additionalSeasons": []
     },
     {
         "name": "willa",
@@ -1199,7 +1510,8 @@ let records = [
             "halisha-l",
             "halisha-l",
             "shanice-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "chasity",
@@ -1217,7 +1529,8 @@ let records = [
             "tatianna-w",
             "tatianna-w",
             "tatianna-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "ebonique",
@@ -1231,7 +1544,8 @@ let records = [
             "gia-w",
             "chasity-t",
             "tatianna-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "gia",
@@ -1244,7 +1558,8 @@ let records = [
             "janessa-t",
             "janessa-w",
             "tatianna-t"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "janessa",
@@ -1256,7 +1571,8 @@ let records = [
             "tatianna-l",
             "gia-t",
             "gia-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "malia",
@@ -1267,7 +1583,8 @@ let records = [
             "ebonique-t",
             "chasity-t",
             "chasity-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "romi",
@@ -1280,7 +1597,8 @@ let records = [
             "chasity-t",
             "tatianna-t",
             "tatianna-w"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "tatianna",
@@ -1302,7 +1620,8 @@ let records = [
             "gia-t",
             "chasity-t",
             "ebonique-l"
-        ]
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "alisha",
@@ -1310,14 +1629,15 @@ let records = [
         "season": 17,
         "city": "Harlem, NY",
         "fights": [
-        	"april-w",
-        	"april-w",
-        	"stella-l", 
-        	"naj-l",
-        	"naj-l",
-        	"stella-l",
-        	"monisha-l"
-        	]
+            "april-w",
+            "april-w",
+            "stella-l",
+            "naj-l",
+            "naj-l",
+            "stella-l",
+            "monisha-l"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "april",
@@ -1325,12 +1645,13 @@ let records = [
         "city": "Boston, MA",
         "season": 17,
         "fights": [
-        	"alisha-l",
-        	"alisha-l",
-        	"naj-l",
-        	"cheerie-l",
-        	"chanel-l"
-        	]
+            "alisha-l",
+            "alisha-l",
+            "naj-l",
+            "cheerie-l",
+            "chanel-l"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "chanel",
@@ -1338,16 +1659,17 @@ let records = [
         "replacement": false,
         "season": 17,
         "fights": [
-        	"naj-l",
-        	"naj-l",
-        	"lala-t",
-        	"stella-l",
-        	"lala-l",
-        	"lala-w",
-        	"cheerie-t",
-        	"lala-w",
-        	"april-w"
-        	]
+            "naj-l",
+            "naj-l",
+            "lala-t",
+            "stella-l",
+            "lala-l",
+            "lala-w",
+            "cheerie-t",
+            "lala-w",
+            "april-w"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "naj",
@@ -1355,15 +1677,16 @@ let records = [
         "city": "Richmond, VA",
         "season": 17,
         "fights": [
-        	"alisha-w",
-        	"alisha-w",
-        	"april-w",
-        	"chanel-w",
-        	"chanel-w",
-        	"random-w",
-        	"stella-w",
-        	"stella-t"
-        	]
+            "alisha-w",
+            "alisha-w",
+            "april-w",
+            "chanel-w",
+            "chanel-w",
+            "random-w",
+            "stella-w",
+            "stella-t"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "stella",
@@ -1371,15 +1694,16 @@ let records = [
         "city": "Salt Lake City, UT",
         "season": 17,
         "fights": [
-        	"alisha-w",
-        	"alisha-w",
-        	"cheerie-t",
-        	"chanel-w",
-        	"lala-w",
-        	"naj-l",
-        	"monisha-l",
-        	"naj-t"
-        	]
+            "alisha-w",
+            "alisha-w",
+            "cheerie-t",
+            "chanel-w",
+            "lala-w",
+            "naj-l",
+            "monisha-l",
+            "naj-t"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "cheerie",
@@ -1387,10 +1711,12 @@ let records = [
         "city": "Houston, TX",
         "season": 17,
         "fights": [
-        	"april-w",
-        	"stella-t",
-        	"chanel-t"
-        	]
+            "april-w",
+            "stella-t",
+            "chanel-t",
+            "mona-t"
+        ],
+        "additionalSeasons": [ "B1", "B2"]
     },
     {
         "name": "lala",
@@ -1398,12 +1724,13 @@ let records = [
         "city": "Reno, NV",
         "season": 17,
         "fights": [
-        	"chanel-t",
-        	"stella-l",
-        	"chanel-w",
-        	"chanel-l",
-        	"chanel-l"
-        	]
+            "chanel-t",
+            "stella-l",
+            "chanel-w",
+            "chanel-l",
+            "chanel-l"
+        ],
+        "additionalSeasons": []
     },
     {
         "name": "monisha",
@@ -1411,8 +1738,9 @@ let records = [
         "city": "Richmond, VA",
         "season": 17,
         "fights": [
-        	"stella-w",
-        	"alisha-w"
-        	]
+            "stella-w",
+            "alisha-w"
+        ],
+        "additionalSeasons": []
     }
-]
+];
