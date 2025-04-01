@@ -128,7 +128,7 @@ function sortByCity(a, b) {
 }
 
 
-records = records.sort(sortByNumFights); //shuffle(records);
+records = records.sort(sortByWinRate); //shuffle(records);
 
 
 for (let i = 0; i < records.length; i ++) {
