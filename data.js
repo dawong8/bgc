@@ -1,15 +1,55 @@
 let records = [
     {
+        "name": "cookie luxx",
+        "replacement": false,
+        "city": "Chicago, IL",
+        "season": "B4",
+        "fights": [
+            "big sapphire-t"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+     {
+        "name": "bella moore",
+        "replacement": false,
+        "city": "Detroit, MI",
+        "season": "B4",
+        "fights": [
+            "tyeesha-l",
+            "tyeesha-t",
+            "badd lacey-l"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+     {
+        "name": "kreamdoll",
+        "replacement": false,
+        "city": "Minneapolis, MN",
+        "season": "B4",
+        "fights": [
+            "pretty jaz-t",
+            "pretty jaz-w",
+            "imani london-t"
+            "imani london-t"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+    {
         "name": "badd lacey",
         "replacement": false,
         "city": "Los Angeles, CA",
         "season": "B3",
         "fights": [
             "sky-l",
-            "chloe-w"
+            "chloe-w",
+            "big sapphire-t",
+            "big sapphire-w"
         ],
         "additionalSeasons": [
-            
+            "B4"
         ]
     },
     {
@@ -23,10 +63,17 @@ let records = [
             "melina garcia-w",
             "tookie ca$h-w",
             "big sapphire-w",
-            "big sapphire-w"
+            "big sapphire-w",
+            "mercedies-t",
+            "mercedies-w",
+            "mercedies-w",
+            "mercedies-w",
+            "badd lacey-t",
+            "kreamdoll-t",
+            "kreamdoll-t"
         ],
         "additionalSeasons": [
-            
+            "B4"
         ]
     },
     {
@@ -103,10 +150,13 @@ let records = [
             "big sapphire-t",
             "jojo-w",
             "jojo-w",
-            "gucci j-t"
+            "gucci j-t",
+            "halisha-t",
+            "halisha-l",
+            "halisha-t"
         ],
         "additionalSeasons": [
-            "B3"
+            "B3", "B4"
         ]
     },
     {
@@ -158,10 +208,13 @@ let records = [
             "chloe-w",
             "sky-l",
             "coco barbie-w",
-            "coco barbie-w"
+            "coco barbie-w",
+            "mercedies-t",
+            "kreamdoll-t",
+            "kreamdoll-l"
         ],
         "additionalSeasons": [
-            "B3"
+            "B3", "B4"
         ]
     },
     {
@@ -180,10 +233,13 @@ let records = [
             "royce-t",
             "imani london-l",
             "imani london-l",
-            "royce-w"
+            "royce-w",
+            "badd lacey-t",
+            "badd lacey-l",
+            "cookie luxx-t"
         ],
         "additionalSeasons": [
-            "B3"
+            "B3", "B4"
         ]
     },
     {
