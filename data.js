@@ -31,7 +31,7 @@ let records = [
         "fights": [
             "pretty jaz-t",
             "pretty jaz-w",
-            "imani london-t"
+            "imani london-t",
             "imani london-t"
         ],
         "additionalSeasons": [
