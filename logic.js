@@ -22,7 +22,9 @@ const seasonNames = {
   A3: "BGC All Stars 3: Redemption",
   B1: "Baddies Girls Trip",
   B2: "Baddies South",
-  B3: "Baddies West"
+  B3: "Baddies West",
+  B4: "Baddies North",
+  B5: "Baddies East"
 }
 // sort records by random? 
 function shuffle(array) {
