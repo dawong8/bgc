@@ -626,9 +626,11 @@ let records = [
             "rayleigh-w",
             "rayleigh-l",
             "rayleigh-w",
-            "janae-t"
+            "janae-t",
+            "bella monroe-w",
+            "bella monroe-t"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B4" ]
     },
     {
         "name": "venecia",
@@ -1061,9 +1063,14 @@ let records = [
         "fights": [
             "jennifer-w",
             "sasha-l",
-            "sasha-w"
+            "sasha-w",
+            "imani london-t",
+            "imani london-l",
+            "pretty jaz-t",
+            "imani london-l",
+            "imani london-l"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B4" ]
     },
     {
         "name": "sasha",
@@ -1507,9 +1514,12 @@ let records = [
             "willa-w",
             "shanice-l",
             "jaylin-w",
-            "carina-w"
+            "carina-w",
+            "razor-t",
+            "razor-w",
+            "razor-t"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B4" ]
     },
     {
         "name": "jaylin",
