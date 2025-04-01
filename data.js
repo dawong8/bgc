@@ -1,4 +1,66 @@
 let records = [
+                {
+        "name": "gutta girl",
+        "replacement": false,
+        "city": "Harlem, NY",
+        "season": "B5",
+        "fights": [
+            "badd lacey-t",
+            "badd lacey-t",
+            "badd lacey-l",
+            "jaylin-w",
+            "jaylin-w",
+            "badd lacey-t",
+            "badd lacey-w"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+            {
+        "name": "brandi luv",
+        "replacement": false,
+        "city": "Richmond, VA",
+        "season": "B5",
+        "fights": [
+            "jaylin-w",
+            "jaylin-w",
+            "badd lacey-t",
+            "badd lacey-t",
+            "monisha-t",
+            "monisha-t"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+        {
+        "name": "yung sugar",
+        "replacement": false,
+        "city": "Tampa, FL",
+        "season": "B5",
+        "fights": [
+            "pretty jaz-t",
+            "monisha-t",
+            "pretty jaz-l",
+            "jaylin-t",
+            "kamika-l",
+            "kamika-l"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+    {
+        "name": "hennesey brown",
+        "replacement": false,
+        "city": "Brooklyn, NY",
+        "season": "B5",
+        "fights": [
+            "monisha-t",
+            "monisha-t",
+            "monisha-l"
+        ],
+        "additionalSeasons": [
+        ]
+    },
     {
         "name": "cookie luxx",
         "replacement": false,
@@ -18,9 +80,12 @@ let records = [
         "fights": [
             "tyeesha-l",
             "tyeesha-t",
-            "badd lacey-l"
+            "badd lacey-l",
+            "pretty jaz-t",
+            "pretty jaz-l"
         ],
         "additionalSeasons": [
+            "B5"
         ]
     },
      {
@@ -46,10 +111,17 @@ let records = [
             "sky-l",
             "chloe-w",
             "big sapphire-t",
-            "big sapphire-w"
+            "big sapphire-w",
+            "gutta girl-t",
+            "gutta girl-t",
+            "gutta girl-w",
+            "brandi luv-t",
+            "brandi luv-t",
+            "gutta girl-t",
+            "gutta girl-l"
         ],
         "additionalSeasons": [
-            "B4"
+            "B4", "B5"
         ]
     },
     {
@@ -73,7 +145,7 @@ let records = [
             "kreamdoll-t"
         ],
         "additionalSeasons": [
-            "B4"
+            "B4", "B5"
         ]
     },
     {
@@ -101,10 +173,11 @@ let records = [
         "fights": [
             "razor-t",
             "tookie ca$h-w",
-            "coco barbie-w"
+            "coco barbie-w",
+            "kamika-t"
         ],
         "additionalSeasons": [
-            
+            "B5"
         ]
     },
     {
@@ -211,10 +284,14 @@ let records = [
             "coco barbie-w",
             "mercedies-t",
             "kreamdoll-t",
-            "kreamdoll-l"
+            "kreamdoll-l",
+            "yung sugar-t",
+            "bella monroe-t",
+            "bella monroe-w",
+            "yung sugar-w"
         ],
         "additionalSeasons": [
-            "B3", "B4"
+            "B3", "B4", "B5"
         ]
     },
     {
@@ -269,7 +346,7 @@ let records = [
             "big sapphire-l",
             "cheerie-t"
         ],
-        "additionalSeasons": [ "B1", "B2", "B3", "B4"]
+        "additionalSeasons": [ "B1", "B2", "B3", "B4", "B5"]
     },
     {
         "name": "nora",
@@ -1438,9 +1515,12 @@ let records = [
             "monique-w",
             "monique-t",
             "jasmine-w",
-            "jasmine-t"
+            "jasmine-t",
+            "gucci j-t",
+            "yung sugar-w",
+            "yung sugar-w"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B5"]
     },
     {
         "name": "monique",
@@ -1528,9 +1608,14 @@ let records = [
         "season": 15,
         "fights": [
             "charice-j-carina",
-            "halisha-l"
+            "halisha-l",
+            "brandi luv-l",
+            "brandi luv-l",
+            "gutta girl-l",
+            "gutta girl-l",
+            "yung sugar-t"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B5"]
     },
     {
         "name": "kyra",
@@ -1805,8 +1890,15 @@ let records = [
         "season": 17,
         "fights": [
             "stella-w",
-            "alisha-w"
+            "alisha-w",
+            "hennesey brown-t",
+            "hennesey brown-t",
+            "hennesey brown-w",
+            "yung sugar-t",
+            "brandi luv-t",
+            "brandi luv-t"
+            
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B5"]
     }
 ];
