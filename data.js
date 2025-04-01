@@ -269,7 +269,7 @@ let records = [
             "big sapphire-l",
             "cheerie-t"
         ],
-        "additionalSeasons": [ "B1", "B2", "B3"]
+        "additionalSeasons": [ "B1", "B2", "B3", "B4"]
     },
     {
         "name": "nora",
