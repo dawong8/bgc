@@ -11,7 +11,7 @@ let records = [
         ]
     },
      {
-        "name": "bella moore",
+        "name": "bella monroe",
         "replacement": false,
         "city": "Detroit, MI",
         "season": "B4",
