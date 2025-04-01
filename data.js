@@ -1016,7 +1016,7 @@ let records = [
             "sasha-w",
             "deja-w"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B1" ]
     },
     {
         "name": "deja",
@@ -1190,7 +1190,7 @@ let records = [
             "maddie-t",
             "vanessa-l"
         ],
-        "additionalSeasons": [ "A3"]
+        "additionalSeasons": [ "A3", "B1"]
     },
     {
         "name": "chikita",
@@ -1596,7 +1596,7 @@ let records = [
             "tatianna-w",
             "tatianna-t"
         ],
-        "additionalSeasons": []
+        "additionalSeasons": [ "B1" ]
     },
     {
         "name": "ebonique",
