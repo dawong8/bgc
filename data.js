@@ -364,7 +364,7 @@ let records = [
             "badd lacey-w",
             "pretty jaz-w",
               "daysee deluxe-t",
-              "daysee deluxe-l"
+              "daysee deluxe-w"
         ],
         "additionalSeasons": [
             "B3", "B7"
