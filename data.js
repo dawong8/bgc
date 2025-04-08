@@ -8,7 +8,7 @@ let records = [
             "yung sugar-t",
             "yung sugar-t",
             "yung sugar-t",
-             "j-yung sugar, big sapphire"
+             "j-yung sugar,big sapphire"
         ],
         "additionalSeasons": [
         ]
