@@ -25,7 +25,8 @@ const seasonNames = {
   B3: "Baddies West",
   B4: "Baddies North",
   B5: "Baddies East",
-  B6: "Baddies Clippyland"
+  B6: "Baddies Clippyland",
+  B7: "Baddies Tractatus"
 }
 // sort records by random? 
 function shuffle(array) {
