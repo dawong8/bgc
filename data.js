@@ -1,4 +1,60 @@
 let records = [
+      {
+        "name": "daysee deluxe",
+        "replacement": false,
+        "city": "Las Vegas, NV",
+        "season": "B6",
+        "fights": [
+            "yung sugar-t",
+            "yung sugar-t",
+            "yung sugar-t",
+             "j-yung sugar, big sapphire"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+    {
+        "name": "nicole rose",
+        "replacement": false,
+        "city": "Los Angeles, CA",
+        "season": "B6",
+        "fights": [
+            "j-yung sugar,cookie luxx",
+            "kreamdoll-t",
+            "kreamdoll-l"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+  {
+        "name": "hazel",
+        "replacement": false,
+        "city": "New York City, NY",
+        "season": "B6",
+        "fights": [
+            "rainy b-t",
+            "rainy b-t",
+            "gutta girl-l"
+        ],
+        "additionalSeasons": [
+        ]
+    },
+                  {
+        "name": "rainy b",
+        "replacement": false,
+        "city": "Miami, FL",
+        "season": "B6",
+        "fights": [
+            "pretty jaz-t",
+             "gutta girl-l",
+             "gutta girl-l",
+            "j-big sapphire,cookie luxx,kreamdoll,yung sugar",
+            "hazel-t",
+            "hazel-t"
+        ],
+        "additionalSeasons": [
+        ]
+    },
                 {
         "name": "gutta girl",
         "replacement": false,
@@ -11,9 +67,13 @@ let records = [
             "jaylin-w",
             "jaylin-w",
             "badd lacey-t",
-            "badd lacey-w"
+            "badd lacey-w",
+            "rainy b-w",
+            "rainy b-w",
+            "hazel-w"
         ],
         "additionalSeasons": [
+          "B6"
         ]
     },
             {
@@ -30,6 +90,7 @@ let records = [
             "monisha-t"
         ],
         "additionalSeasons": [
+          "B6"
         ]
     },
         {
@@ -43,9 +104,17 @@ let records = [
             "pretty jaz-l",
             "jaylin-t",
             "kamika-l",
-            "kamika-l"
+            "kamika-l",
+            "daysee deluxe-t",
+            "rainy b-j-big sapphire,cookie luxx,kreamdoll",
+            "nicole rose-j-cookie luxx",
+             "symone-j-cookie luxx,kreamdoll",
+          "daysee deluxe-t",
+          "daysee deluxe-t",
+          "daysee deluxe-j-big sapphire"
         ],
         "additionalSeasons": [
+          "B6"
         ]
     },
     {
@@ -67,9 +136,14 @@ let records = [
         "city": "Chicago, IL",
         "season": "B4",
         "fights": [
-            "big sapphire-t"
+            "big sapphire-t",
+            "symone-t",
+            "rainy b-j-big sapphire,kreamdoll,yung sugar",
+            "nicole rose-j-yung sugar",
+             "symone-j-yung sugar,kreamdoll"
         ],
         "additionalSeasons": [
+          "B6"
         ]
     },
      {
@@ -97,9 +171,17 @@ let records = [
             "pretty jaz-t",
             "pretty jaz-w",
             "imani london-t",
-            "imani london-t"
+            "imani london-t",
+            "rainy b-j-big sapphire,cookie luxx,yung sugar",
+            "symone-j-yung sugar,cookie luxx",
+            "mona-t",
+            "imani london-l",
+            "nicole rose-t",
+            "symone-t",
+             "nicole rose-w"
         ],
         "additionalSeasons": [
+          "B6"
         ]
     },
     {
@@ -118,10 +200,14 @@ let records = [
             "brandi luv-t",
             "brandi luv-t",
             "gutta girl-t",
-            "gutta girl-l"
+            "gutta girl-l",
+            "imani london-t",
+            "imani london-l",
+            "big sapphire-t",
+            "big sapphire-t"
         ],
         "additionalSeasons": [
-            "B4", "B5"
+            "B4", "B5", "B6"
         ]
     },
     {
@@ -142,10 +228,14 @@ let records = [
             "mercedies-w",
             "badd lacey-t",
             "kreamdoll-t",
-            "kreamdoll-t"
+            "kreamdoll-t",
+            "big sapphire-w",
+             "badd lacey-t",
+            "badd lacey-w",
+            "kreamdoll-w"
         ],
         "additionalSeasons": [
-            "B4", "B5"
+            "B4", "B5", "B6"
         ]
     },
     {
@@ -288,10 +378,11 @@ let records = [
             "yung sugar-t",
             "bella monroe-t",
             "bella monroe-w",
-            "yung sugar-w"
+            "yung sugar-w",
+            "rainy b-t"
         ],
         "additionalSeasons": [
-            "B3", "B4", "B5"
+            "B3", "B4", "B5", "B6"
         ]
     },
     {
@@ -313,10 +404,15 @@ let records = [
             "royce-w",
             "badd lacey-t",
             "badd lacey-l",
-            "cookie luxx-t"
+            "cookie luxx-t",
+            "imani london-l",
+            "rainy b-j-cookie luxx,kreamdoll,yung sugar",
+            "daysee deluxe-j-yung sugar",
+            "badd lacey-t",
+            "badd lacey-t"
         ],
         "additionalSeasons": [
-            "B3", "B4"
+            "B3", "B4", "B6"
         ]
     },
     {
@@ -344,9 +440,10 @@ let records = [
         "fights": [
             "savannah-l",
             "big sapphire-l",
-            "cheerie-t"
+            "cheerie-t",
+            "kreamdoll-t"
         ],
-        "additionalSeasons": [ "B1", "B2", "B3", "B4", "B5"]
+        "additionalSeasons": [ "B1", "B2", "B3", "B4", "B5", "B6"]
     },
     {
         "name": "nora",
@@ -377,8 +474,12 @@ let records = [
         "replacement": false,
         "city": "Brooklyn, NY",
         "season": 1,
-        "fights": [],
-        "additionalSeasons": []
+        "fights": [
+          "cookie luxx-t",
+          "j-cookie luxx,yung sugar,kreamdoll",
+          "kreamdoll-t"
+        ],
+        "additionalSeasons": [ "B6" ]
     },
     {
         "name": "erin",
