@@ -27,9 +27,16 @@ let records = [
               "gucci j-w",
               "gucci j-w",
               "gutta girl-w",
-              "gutta girl-t"
+              "gutta girl-t",
+              "big sapphire-l",
+             "big sapphire-l", 
+             "bella monroe-l",
+             "big sapphire-t",
+             "sky-w",
+              "rainy b-w"
         ],
         "additionalSeasons": [
+          "B8"
         ]
     },
             {
@@ -85,9 +92,14 @@ let records = [
         "fights": [
             "rainy b-t",
             "rainy b-t",
-            "gutta girl-l"
+            "gutta girl-l",
+            "rainy b-w", 
+            "rainy b-t",
+             "rainy b-w",
+            "sky-t"
         ],
         "additionalSeasons": [
+          "B8"
         ]
     },
                   {
@@ -103,10 +115,11 @@ let records = [
             "hazel-t",
             "hazel-t",
               "melina garcia-t",
-              "mona-l"
+              "mona-l",
+          "hazel-l", "hazel-t", "hazel-l", "big sapphire-l", "big sapphire-l", "cuban babii-l"
         ],
         "additionalSeasons": [
-              "B7"
+              "B7", "B8"
         ]
     },
                 {
@@ -128,10 +141,11 @@ let records = [
               "chrissy james-t",
               "chrissy james-t",
               "cuban babii-l",
-              "cuban babii-t"
+              "cuban babii-t",
+            "pretty jaz-t"
         ],
         "additionalSeasons": [
-          "B6", "B7" 
+          "B6", "B7", "B8"
         ]
     },
             {
@@ -148,10 +162,11 @@ let records = [
             "monisha-t",
               "daysee deluxe-t",
               "daysee deluxe-w",
-              "daysee deluxe-w"
+              "daysee deluxe-w",
+          "keysha-w", "keysha-w"
         ],
         "additionalSeasons": [
-          "B6", "B7"
+          "B6", "B7", "B8"
         ]
     },
         {
@@ -217,10 +232,15 @@ let records = [
             "tyeesha-t",
             "badd lacey-l",
             "pretty jaz-t",
-            "pretty jaz-l"
+            "pretty jaz-l",
+            "melina garcia-w",
+            "melina garcia-w",
+            "cuban babii-w",
+            "pretty jaz-w",
+            "mona-w"
         ],
         "additionalSeasons": [
-            "B5"
+            "B5", "B8"
         ]
     },
      {
@@ -266,10 +286,11 @@ let records = [
             "imani london-l",
             "big sapphire-t",
             "big sapphire-t",
-              "daleika-w"
+              "daleika-w",
+             "big sapphire-t"
         ],
         "additionalSeasons": [
-            "B4", "B5", "B6", "B7"
+            "B4", "B5", "B6", "B7", "B8"
         ]
     },
     {
@@ -295,10 +316,10 @@ let records = [
              "badd lacey-t",
             "badd lacey-w",
             "kreamdoll-w",
-              
+              "big sapphire-t"
         ],
         "additionalSeasons": [
-            "B4", "B5", "B6", "B7"
+            "B4", "B5", "B6", "B7", "B8"
         ]
     },
     {
@@ -364,10 +385,12 @@ let records = [
             "badd lacey-w",
             "pretty jaz-w",
               "daysee deluxe-t",
-              "daysee deluxe-w"
+              "daysee deluxe-w",
+           "hazel-t",
+           "cuban babii-l"
         ],
         "additionalSeasons": [
-            "B3", "B7"
+            "B3", "B7", "B8"
         ]
     },
     {
@@ -415,10 +438,12 @@ let records = [
             "coco barbie-t",
             "coco barbie-l",
             "imani london-l",
-              "rainy b-t"
+              "rainy b-t",
+             "bella monroe-l",
+             "bella monroe-l"
         ],
         "additionalSeasons": [
-            "B3", "B7"
+            "B3", "B7", "B8"
         ]
     },
     {
@@ -449,10 +474,13 @@ let records = [
             "yung sugar-w",
             "rainy b-t",
               "cuban babii-t",
-              "cuban babii-t"
+              "cuban babii-t",
+            "bella monroe-l",
+          "mona-w", 
+          "gutta girl-t"
         ],
         "additionalSeasons": [
-            "B3", "B4", "B5", "B6", "B7"
+            "B3", "B4", "B5", "B6", "B7", "B8"
         ]
     },
     {
@@ -479,10 +507,16 @@ let records = [
             "rainy b-j-cookie luxx,kreamdoll,yung sugar",
             "daysee deluxe-j-yung sugar",
             "badd lacey-t",
-            "badd lacey-t"
+            "badd lacey-t",
+            "cuban babii-w",
+            "cuban babii-w",
+            "imani london-t",
+            "rainy b-w",
+            "rainy b-w",
+            "cuban babii-t"
         ],
         "additionalSeasons": [
-            "B3", "B4", "B6"
+            "B3", "B4", "B6", "B8"
         ]
     },
     {
@@ -512,9 +546,11 @@ let records = [
             "big sapphire-l",
             "cheerie-t",
             "kreamdoll-t",
-            "rainy b-w"
+            "rainy b-w",
+            "bella monroe-l",
+            "pretty jaz-l"
         ],
-        "additionalSeasons": [ "B1", "B2", "B3", "B4", "B5", "B6" , "B7"]
+        "additionalSeasons": [ "B1", "B2", "B3", "B4", "B5", "B6" , "B7", "B8"]
     },
     {
         "name": "nora",
@@ -573,9 +609,11 @@ let records = [
         "fights": [
             "random-w",
             "patricia-w",
-            "leila-w"
+            "leila-w",
+            "brandi luv-l",
+            "brandi luv-l"
         ],
-        "additionalSeasons": ["A1"]
+        "additionalSeasons": ["A1", "B8"]
     },
     {
         "name": "leila",
@@ -1358,7 +1396,7 @@ let records = [
             "nat-w",
             "erin-t"
         ],
-        "additionalSeasons": [ "A2"]
+        "additionalSeasons": [ "A2", "B8"]
     },
     {
         "name": "jojo",
