@@ -131,7 +131,7 @@ function sortByCity(a, b) {
 }
 
 
-records = records.sort(sortByWinRate); //shuffle(records);
+records = records.sort(sortBySeason); //shuffle(records);
 
 
 for (let i = 0; i < records.length; i ++) {
@@ -149,3 +149,4 @@ for (let i = 0; i < records.length; i ++) {
 
 	$("#photo-grid").append($pic1);
 }
+
